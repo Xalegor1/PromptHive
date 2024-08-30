@@ -1,9 +1,9 @@
 "use client";
 
 export const dynamic = "force-dynamic";
+export const revalidate = 0;
 
 import { useState, useEffect } from "react";
-
 import PromptCard from "./PromptCard";
 
 const PromptCardList = ({ data, handleTagClick }) => {
